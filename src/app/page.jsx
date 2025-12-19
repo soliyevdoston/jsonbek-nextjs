@@ -3,7 +3,7 @@ import { Button } from "@/components/ui/button";
 
 export default function Home() {
   return (
-    <div className="relative min-h-screen bg-gradient-to-br from-slate-900 to-slate-800 text-white flex items-center justify-center">
+    <div className="relative min-h-screen bg-[#12030f52]  text-white flex items-center justify-center">
       <div className="text-center space-y-6 max-w-xl px-4">
         <h1 className="text-4xl text-5xl font-bold">
           Hikoyalar olamiga xush kelibsiz ✍️

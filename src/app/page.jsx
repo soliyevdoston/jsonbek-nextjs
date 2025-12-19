@@ -9,25 +9,25 @@ export default function Home() {
           Hikoyalar olamiga xush kelibsiz ✍️
         </h1>
 
-        <p className="text-slate-300">
+        <p className="">
           Comedy, drama, romance va adventure janridagi eng qiziqarli
           hikoyalarni bir joyda o‘qing.
         </p>
 
         <Link href="/SSR">
           <Button
-            className="text-lg px-10 py-6 transition
-    hover:scale-105
+            className=" px-10 py-6 transition
+   
     hover:bg-white
     hover:text-black
     active:scale-95"
           >
-            Hikoyalarni ko‘rish →
+            Hikoyalarni ko‘rish
           </Button>
         </Link>
       </div>
       <div className="absolute bottom-6 right-6">
-        <h5 className="pb-[10px] text-slate-400">
+        <h5 className="pb-[10px] ">
           O'zingizga mos render turi orqali qidiring
         </h5>
         <div className=" flex  gap-2">
@@ -35,7 +35,7 @@ export default function Home() {
             <Button
               className="
     transition
-    hover:scale-105
+   
     hover:bg-white
     hover:text-black
     active:scale-95
@@ -49,7 +49,7 @@ export default function Home() {
             <Button
               className="
     transition
-    hover:scale-105
+    
     hover:bg-white
     hover:text-black
     active:scale-95
@@ -63,7 +63,7 @@ export default function Home() {
             <Button
               className="
     transition
-    hover:scale-105
+    
     hover:bg-white
     hover:text-black
     active:scale-95
@@ -77,7 +77,7 @@ export default function Home() {
             <Button
               className="
     transition
-    hover:scale-105
+    
     hover:bg-white
     hover:text-black
     active:scale-95
@@ -89,16 +89,16 @@ export default function Home() {
         </div>
       </div>
 
-      <div className="absolute bottom-6 left-6 text-sm text-slate-400">
+      <div className="absolute bottom-6 left-6  ">
         Ma’lumotlar{" "}
         <a
           href="https://jsonbek.uz"
           target="_blank"
-          className="underline hover:text-white transition"
+          className=" hover:text-white "
         >
           Jsonbek.uz
         </a>{" "}
-        orqali taqdim etiladi
+        dan olingan
       </div>
     </div>
   );

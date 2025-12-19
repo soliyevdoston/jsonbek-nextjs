@@ -1,5 +1,10 @@
+import Link from "next/link";
 import React from "react";
 
 export default function page() {
-  return <div>page</div>;
+  return (
+    <div>
+      <Link href="/Adventure">Adventure</Link>
+    </div>
+  );
 }
